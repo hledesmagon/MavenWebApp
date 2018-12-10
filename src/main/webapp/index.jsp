@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Today's Date</title>
+    <title>DevOps Lab Welcome Page</title>
 
-Hi <script>
+<h1>Hi BCP!</h1>
+
+<!-- Hi <script>
 
 var strCookies = document.cookie;
 var cookiearray = strCookies.split(';')
@@ -15,13 +17,14 @@ for(var i=0; i<cookiearray.length; i++){
      sid = value;
      alert(sid); 
 }
-
+ -->
+ 
 </script>
 
 </head>
 
 
 <body>
-<h2>POC Started! - With Fifth or Sixth Change! </h2>
+<h2>POC Started! - With Seventh Change! </h2>
 </body>
 </html>
