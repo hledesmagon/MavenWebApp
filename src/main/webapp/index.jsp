@@ -4,27 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>DevOps Lab Welcome Page</title>
+     <link rel="stylesheet" type="text/css" href="./css/stiles.css">	
 
-<h1>Hi BCP!</h1>
 
-<!-- Hi <script>
-
-var strCookies = document.cookie;
-var cookiearray = strCookies.split(';')
-for(var i=0; i<cookiearray.length; i++){
-  name = cookiearray[i].split('=')[0];
-  value = cookiearray[i].split('=')[1];
-     sid = value;
-     alert(sid); 
-}
- -->
- 
-</script>
+<div class="log-form">
+<h1>Hola BCP!</h1>
+<h2>Iniciamos la POC! - Primer cambio! </h2>
+  <h2>Login para entrar a tu cuenta.</h2>
+  <form>
+    <input type="text" title="username" placeholder="username" />
+    <input type="password" title="username" placeholder="password" />
+    <button type="submit" class="btn">Login</button>
+	<br/>
+    <a class="forgot" href="#">Olvidaste tu password?</a>
+  </form>
+</div><!--end log form -->
 
 </head>
 
 
 <body>
-<h2>POC Started! - With First Change! </h2>
+
 </body>
 </html>
