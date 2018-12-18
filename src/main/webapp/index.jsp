@@ -5,7 +5,7 @@
 	    <meta name="viewport" content="width=device-width, initial-scale=1">
 	    <title>DevOps Lab Welcome Page</title>
 	     <link rel="stylesheet" type="text/css" href="./css/stiles.css">	
-	
+	     <link rel="stylesheet" type="text/css" href="./css/textstyles.css">	
 	
 	<div class="log-form">
 	<h1>Hola BCP!</h1>
