@@ -19,6 +19,25 @@
 		
 	}
 	
+	function ValidateTextBox(evt){
+		
+
+        var charCode = (evt.which) ? evt.which : event.keyCode;
+
+        if(charCode == 118 || charCode ==60 || charCode == 62 ){
+			alert('Valor no permitido.');
+			return false;
+        }else
+			return true;
+		  
+		if((charCode >= 48 && charCode <= 57) || (charCode >= 35 && charCode<=38) || charCOde == 33|| charCOde == 64 || charCode == 42)
+			return true;
+        else
+			return false;
+
+					  
+  }	
+	
 
 
 
@@ -32,10 +51,10 @@
 
 
 	<label for="nombre" style="color: white">Nombre:  </label>
-    <input type="text" id="input_value" title="input_value" placeholder="Ingrese Nombre" />
+    <input type="text" id="input_value" title="input_value" placeholder="Ingrese Nombre" maxlength="60" onkeypress="return ValidateTextBox(event);"/>
 	<br/>
 	<label for="nombre" style="color: white">Apellido:  </label>
-    <input type="text" id="input_value1" title="input_value" placeholder="Ingrese Apellido" />	
+    <input type="text" id="input_value1" title="input_value" placeholder="Ingrese Apellido" maxlength="60" onkeypress="return ValidateTextBox(event);"/>
 	<button type="submit" class="btn" onclick="javascript:actionClick();">Click</button>
 	
 </body>
