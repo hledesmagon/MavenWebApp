@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>DevOps Lab Welcome Page</title>
      <link rel="stylesheet" type="text/css" href="./css/stiles.css">	
-	 <link rel="stylesheet" type="text/css" href="./css/textstyles.css">	
+	     <link rel="stylesheet" type="text/css" href="./css/textstyles.css">	
 
 
 <div class="log-form" id="rcorners2" >
@@ -21,7 +21,7 @@
   <form >
     <input type="text" title="username" placeholder="username" />
     <input type="password" title="username" placeholder="password" />
-    <button type="submit" class="btn" onclick="javascript:login();">Login</button>
+    <button class="btn" onclick="login();">Login</button>
 	<br/>
     <a class="forgot" href="#">Olvidaste tu password?</a>
 	<br/>
@@ -33,12 +33,16 @@
 </head>
 
 <body>
+
 <script>
 	function login(){
-		
+
 		window.location.href = "homepage.html";
+		alert('Page Redirect');
+
+		window.location.reload(false); 
 		
 	}
-</script> 
+</script>
 </body>
 </html>

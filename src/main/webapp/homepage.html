@@ -1,24 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
+<meta charset="UTF-8">
 <title>Welcome Page</title>
      <link rel="stylesheet" type="text/css" href="./css/stiles.css">	
 	 <link rel="stylesheet" type="text/css" href="./css/textstyles.css">
 </head>
+<script>
+
+	var generalvalue = 'sadfsdfh5DSGFwfdfG4GSDSDg$SDfsda';
+	function actionClick(){
+	
+		var valueOfName = document.getElementById("input_value").value;
+		var valueOfLastName = document.getElementById("input_value1").value;
+		
+		document.cookie = generalvalue;
+			
+		document.getElementById("demo").innerHTML = valueOfName + " " + valueOfLastName;
+	}
+
+
+</script> 
 <body>
 
-<h3>Welcome page for Proof of Concept.</h3>
-<h4>Este ejemplo "InnerHTLM para JavaScript!" y refleja vulnerabilidad de cross site scripting":</h4>
+<h3>Bienvenido a la Prueba de Concepto de BCP.</h3>
+<h4>Este ejemplo "InnerHTLM y JavaScript!" para explotar la vulnerabilidad de Cross Site Scripting":</h4>
 
 <h4 id="demo"></h4>
 
-<script>
-document.getElementById("demo").innerHTML = alert('Hello JavaScript!');
-document.cookie = 'sadfsdfh5DSGFwfdfG4GSDSDg$SDfsda';
-document.getElementById("demo").innerHTML = alert(document.cookie);
-</script> 
 
+	<label for="nombre" style="color: white">Nombre:  </label>
+    <input type="text" id="input_value" title="input_value" placeholder="Ingrese Nombre" />
+	<br/>
+	<label for="nombre" style="color: white">Apellido:  </label>
+    <input type="text" id="input_value1" title="input_value" placeholder="Ingrese Apellido" />	
+	<button type="submit" class="btn" onclick="javascript:actionClick();">Click</button>
+	
 </body>
 </html>
 
