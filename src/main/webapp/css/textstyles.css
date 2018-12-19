@@ -2,6 +2,10 @@ h1 { color: #rrggbb; font-family: 'Open Sans', sans-serif; font-size: 34px; font
 
 h2 { color: #rrggbb; font-family: 'Open Sans', sans-serif; font-size: 24px; font-weight: 300; line-height: 32px; margin: 0 0 14px; text-align: center; }
 
+h3 {color: white}
+
+h4 {color: white}
+
 
 a { color: blue; text-decoration: underline; text-align: center; }
 

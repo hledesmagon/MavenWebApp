@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Welcome Page</title>
+     <link rel="stylesheet" type="text/css" href="./css/stiles.css">	
+	 <link rel="stylesheet" type="text/css" href="./css/textstyles.css">
+</head>
+<body>
+
+<h3>Welcome page for Proof of Concept.</h3>
+<h4>Este ejemplo "InnerHTLM para JavaScript!" y refleja vulnerabilidad de cross site scripting":</h4>
+
+<h4 id="demo"></h4>
+
+<script>
+document.getElementById("demo").innerHTML = alert('Hello JavaScript!');
+document.cookie = 'sadfsdfh5DSGFwfdfG4GSDSDg$SDfsda';
+document.getElementById("demo").innerHTML = alert(document.cookie);
+</script> 
+
+</body>
+</html>
+

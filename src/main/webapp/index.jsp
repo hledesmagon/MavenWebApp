@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>DevOps Lab Welcome Page</title>
      <link rel="stylesheet" type="text/css" href="./css/stiles.css">	
-	     <link rel="stylesheet" type="text/css" href="./css/textstyles.css">	
+	 <link rel="stylesheet" type="text/css" href="./css/textstyles.css">	
 
 
 <div class="log-form" id="rcorners2" >
@@ -25,7 +25,7 @@
 	<br/>
     <a class="forgot" href="#">Olvidaste tu password?</a>
 	<br/>
-	<a href="second.html" target="_blank">Cambiar Password!</a>
+	<a href="homepage.html" target="_blank">Cambiar Password!</a>
   </form>
 
 </div><!--end log form -->
