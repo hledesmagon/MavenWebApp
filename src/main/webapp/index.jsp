@@ -38,9 +38,10 @@
 	function login(){
 
 		window.location.href = "homepage.html";
-		alert('Page Redirect');
+		
 
 		window.location.reload(false); 
+		window.location.reload(true); 
 		
 	}
 </script>
