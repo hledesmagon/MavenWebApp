@@ -21,7 +21,7 @@
   <form >
     <input type="text" title="username" placeholder="username" />
     <input type="password" title="username" placeholder="password" />
-    <button type="submit" class="btn">Login</button>
+    <button type="submit" class="btn" onclick="javascript:login();">Login</button>
 	<br/>
     <a class="forgot" href="#">Olvidaste tu password?</a>
 	<br/>
@@ -33,5 +33,12 @@
 </head>
 
 <body>
+<script>
+	function login(){
+		
+		window.location.href = "homepage.html";
+		
+	}
+</script> 
 </body>
 </html>
