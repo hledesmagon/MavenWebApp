@@ -8,35 +8,17 @@
 </head>
 <script>
 
-var generalvalue = 'sadfsdfh5DSGFwfdfG4GSDSDg$SDfsda';
-document.cookie = generalvalue;
-
-function actionClick(){
-
-	var valueOfName = document.getElementById("input_value").value;
-	var valueOfLastName = document.getElementById("input_value1").value;
-	document.getElementById("demo").innerHTML = valueOfName + " " + valueOfLastName;
-}
-
-function ValidateTextBox(evt, val){
+	var generalvalue = 'sadfsdfh5DSGFwfdfG4GSDSDg$SDfsda';
+	function actionClick(){
 	
-
-      var charCode = (evt.which) ? evt.which : event.keyCode;
-
-      if(charCode == 118 || charCode ==60 || charCode == 62 ){
-		alert('Valor no permitido.');
-		return false;
-      }else
-		return true;
-	  
-	  if((charCode >= 48 && charCode <= 57) || (charCode >= 35 && charCode<=38) || charCOde == 33|| charCOde == 64 || charCode == 42)
-		return true;
-      else
-		return false;
-
-				  
-}
-
+		var valueOfName = document.getElementById("input_value").value;
+		var valueOfLastName = document.getElementById("input_value1").value;
+		
+		document.cookie = generalvalue;			
+		document.getElementById("demo").innerHTML = valueOfName + " " + valueOfLastName;
+		
+	}
+	
 
 
 
@@ -50,10 +32,10 @@ function ValidateTextBox(evt, val){
 
 
 	<label for="nombre" style="color: white">Nombre:  </label>
-    <input type="text" id="input_value" title="input_value" placeholder="Ingrese Nombre"  maxlength="60" onkeypress="return ValidateTextBox(event);"/>
+    <input type="text" id="input_value" title="input_value" placeholder="Ingrese Nombre" />
 	<br/>
 	<label for="nombre" style="color: white">Apellido:  </label>
-    <input type="text" id="input_value1" title="input_value" placeholder="Ingrese Apellido"  maxlength="60" onkeypress="return ValidateTextBox(event);"/>	
+    <input type="text" id="input_value1" title="input_value" placeholder="Ingrese Apellido" />	
 	<button type="submit" class="btn" onclick="javascript:actionClick();">Click</button>
 	
 </body>
