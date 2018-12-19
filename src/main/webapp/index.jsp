@@ -1,11 +1,18 @@
 <html>
 
 <head>
-    <meta charset="UTF-8">
+<script>
+	function login(){
+
+		window.open("homepage.html");
+			
+	}
+</script>
+<meta charset="ISO-8859-1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>DevOps Lab Welcome Page</title>
      <link rel="stylesheet" type="text/css" href="./css/stiles.css">	
-	     <link rel="stylesheet" type="text/css" href="./css/textstyles.css">	
+	 <link rel="stylesheet" type="text/css" href="./css/textstyles.css">	
 
 
 <div class="log-form" id="rcorners2" >
@@ -34,16 +41,5 @@
 
 <body>
 
-<script>
-	function login(){
-
-		window.location.href = "homepage.html";
-		
-
-		window.location.reload(false); 
-		window.location.reload(true); 
-		
-	}
-</script>
 </body>
 </html>
