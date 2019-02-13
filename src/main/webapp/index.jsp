@@ -16,13 +16,13 @@
 
 
 <div class="log-form" id="rcorners2" >
- <img src="./img/bcp-logo.png" alt="BCP" style="float:left" height="42" width="120";>
+ <!-- <img src="./img/bcp-logo.png" alt="BCP" style="float:left" height="42" width="120";> -->
  <br/>
  <br/>
  <br/>
-<h1>Hola Usuario de BCP!</h1>
+<h1>Please login into IBM Demo web page!</h1>
 <h2> </h2>
-  <h2>Login para entrar a tu cuenta.</h2>
+  <h2>Login with your account.</h2>
   <br/>
   <br/>
   <form >
@@ -30,9 +30,9 @@
     <input type="password" title="username" placeholder="password" />
     <button class="btn" onclick="login();">Login</button>
 	<br/>
-    <a class="forgot" href="#">Olvidaste tu password?</a>
+    <a class="forgot" href="#">Password reset.</a>
 	<br/>
-	<a href="homepage.html" target="_blank">Cambiar Password!</a>
+	<a href="homepage.html" target="_blank">Change your password!</a>
   </form>
 
 </div><!--end log form -->

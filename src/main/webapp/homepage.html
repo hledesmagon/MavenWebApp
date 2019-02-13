@@ -21,7 +21,7 @@
 	
 	function ValidateTextBox(evt){
 		
-
+		//Adding validation as per SDE Recommendation
         var charCode = (evt.which) ? evt.which : event.keyCode;
 
         if(charCode == 118 || charCode ==60 || charCode == 62 ){
@@ -44,16 +44,16 @@
 </script> 
 <body>
 
-<h3>Bienvenido a la Prueba de Concepto de BCP.</h3>
-<h4>Este ejemplo "InnerHTLM y JavaScript!" para explotar la vulnerabilidad de Cross Site Scripting":</h4>
+<h3>Welcome to IBM Demo of Secure DevOps.</h3>
+<h4>This is an example of "InnerHTLM and JavaScript!" to exploit Cross Site Scripting vulnerability on this web page."</h4>
 
 <h4 id="demo"></h4>
 
 
-	<label for="nombre" style="color: white">Nombre:  </label>
+	<label for="nombre" style="color: white">Name:  </label>
     <input type="text" id="input_value" title="input_value" placeholder="Ingrese Nombre" maxlength="60" onkeypress="return ValidateTextBox(event);"/>
 	<br/>
-	<label for="nombre" style="color: white">Apellido:  </label>
+	<label for="nombre" style="color: white">Last Name:  </label>
     <input type="text" id="input_value1" title="input_value" placeholder="Ingrese Apellido" maxlength="60" onkeypress="return ValidateTextBox(event);"/>
 	<button type="submit" class="btn" onclick="javascript:actionClick();">Click</button>
 	
